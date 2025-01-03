@@ -1,0 +1,39 @@
+/* Untuk semua scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Lebar scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #9c27b0, #673ab7); /* Warna thumb (pegangan) */
+    border-radius: 10px; /* Membuat thumb membulat */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #7b1fa2, #512da8); /* Warna thumb saat hover */
+}
+
+::-webkit-scrollbar-track {
+    background: #f3f3f3; /* Warna background track (lintasan) */
+    border-radius: 10px; /* Membuat track membulat */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Efek bayangan lembut */
+}
+
+/* Scrollbar khusus di elemen tertentu */
+.element-scrollable {
+    overflow-y: auto; /* Aktifkan scrollbar untuk vertikal */
+    max-height: 300px; /* Batas tinggi elemen */
+}
+
+.element-scrollable::-webkit-scrollbar {
+    width: 8px;
+}
+
+.element-scrollable::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #03a9f4, #0288d1);
+    border-radius: 10px;
+}
+
+.element-scrollable::-webkit-scrollbar-track {
+    background: #e0f7fa;
+    border-radius: 10px;
+}
