@@ -1,0 +1,14 @@
+[debug] [2025-01-04T07:28:35.570Z] ----------------------------------------------------------------------
+[debug] [2025-01-04T07:28:35.572Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-01-04T07:28:35.573Z] CLI Version:   11.19.0
+[debug] [2025-01-04T07:28:35.573Z] Platform:      win32
+[debug] [2025-01-04T07:28:35.573Z] Node Version:  v16.14.2
+[debug] [2025-01-04T07:28:35.574Z] Time:          Sat Jan 04 2025 14:28:35 GMT+0700 (Western Indonesia Time)
+[debug] [2025-01-04T07:28:35.574Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-04T07:28:35.652Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-04T07:28:35.652Z] > authorizing via signed-in user (retzstyle@gmail.com)
+[debug] [2025-01-04T07:28:35.652Z] [iam] checking project retzstyle for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-01-04T07:28:35.655Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/retzstyle:testIamPermissions [none]
+[debug] [2025-01-04T07:28:35.655Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/retzstyle:testIamPermissions x-goog-quota-user=projects/retzstyle
+[debug] [2025-01-04T07:28:35.656Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/retzstyle:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
